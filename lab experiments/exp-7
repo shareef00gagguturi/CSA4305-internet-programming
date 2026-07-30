@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Number Greater Than 1000 Divisible by 99</title>
+</head>
+<body>
+  <h2>Smallest Number Greater Than 1000 Divisible by 99</h2>
+  <button onclick="findNumber()">Find Number</button>
+  <p id="result"></p>
+
+  <script>
+    function findNumber() {
+      let num = 1001;
+
+      while (num % 99 !== 0) {
+        num++;
+      }
+
+      document.getElementById("result").textContent =
+        "The smallest number greater than 1000 divisible by 99 is: " + num;
+    }
+  </script>
+</body>
+</html>
