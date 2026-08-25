@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<products>
+    <product>
+        <id>101</id>
+        <name>Laptop</name>
+        <price>55000</price>
+    </product>
+
+    <product>
+        <id>102</id>
+        <name>Mobile</name>
+        <price>25000</price>
+    </product>
+</products>
